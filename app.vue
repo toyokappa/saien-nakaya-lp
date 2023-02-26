@@ -22,6 +22,8 @@ body
   font-weight: bold
 .f-12
   font-size: 12px
+.f-16
+  font-size: 16px
 .f-20
   font-size: 20px
 .f-24
@@ -40,4 +42,6 @@ body
   margin-bottom: 20px
 .mb-3
   margin-bottom: 30px
+.mb-4
+  margin-bottom: 40px
 </style>
