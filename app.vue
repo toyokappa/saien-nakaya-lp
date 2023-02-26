@@ -5,10 +5,10 @@ NuxtLayout
 
 <style lang="sass">
 body
-  font-family: 'Noto Sans JP', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif
+  font-family: 'Sawarabi Mincho', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif
 .section
   padding: 30px 0
-.title
+.t-center
   text-align: center
 .eyecatch
   width: 100%
@@ -18,6 +18,8 @@ body
   background-color: $base
 .f-accent
   font-family: $accent-family
+.f-bold
+  font-weight: bold
 .f-12
   font-size: 12px
 .f-20

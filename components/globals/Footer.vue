@@ -1,5 +1,5 @@
 <template lang="pug">
-footer &copy; SAIEN NAKAYA 2023
+footer.f-accent &copy; SAIEN NAKAYA 2023
 </template>
 
 <style lang="sass" scoped>
