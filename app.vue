@@ -16,6 +16,8 @@ body
   background-color: $grey
 .bg-base
   background-color: $base
+.f-accent
+  font-family: $accent-family
 .f-12
   font-size: 12px
 .f-20
