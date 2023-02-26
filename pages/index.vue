@@ -2,4 +2,5 @@
 SectionsFirstView
 SectionsConcept
 SectionsProduct
+SectionsCompanyInfo
 </template>
