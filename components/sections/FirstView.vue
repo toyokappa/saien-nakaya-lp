@@ -8,7 +8,7 @@ section
         .f-24 彩園なかや
       .concept.mb-3
         p 畑を拓き、人を育てる。
-      PartsButton(to="/") 代表/中屋 智博について
+      PartsButton(to="/owner") 代表/中屋 智博について
 </template>
 
 <style lang="sass" scoped>

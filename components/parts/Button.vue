@@ -43,8 +43,6 @@ const buttonStyles = computed(() => {
   display: flex
   justify-content: space-between
   align-items: center
-  font-family: $accent-family
-  font-weight: bold
   text-align: center
   text-decoration: none
   width: 100%
