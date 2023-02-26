@@ -14,6 +14,8 @@ body
   width: 100%
   aspect-ratio: 16/9
   background-color: $grey
+  object-fit: cover
+  object-position: center
 .bg-base
   background-color: $base
 .f-accent

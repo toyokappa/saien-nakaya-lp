@@ -1,5 +1,5 @@
 <template lang="pug">
-.eyecatch.mb-2
+img.eyecatch.mb-3(src="@/assets/images/owner-top.jpg")
 .profile.t-center.mb-3
   img.photo.mb-2(src="@/assets/images/nakaya.jpg")
   .mb-1 彩園なかや代表
@@ -16,7 +16,9 @@
   p.mb-2 私の農業は農業という手段を使って世界中の貧困に困っている人を助ける。これを軸にして進んでいくことと思います。
 </template>
 
-<style lang="sass">
+<style lang="sass" scoped>
+.eyecatch
+  aspect-ratio: 3/1
 .photo
   display: inline-block
   width: 160px

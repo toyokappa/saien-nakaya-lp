@@ -1,6 +1,6 @@
 <template lang="pug">
 section
-  .hero
+  img.hero(src="@/assets/images/hero.jpg")
   .content.t-center
     .px-2
       h1.logo.mb-2
@@ -15,9 +15,11 @@ section
 .hero
   width: 100%
   height: 340px
+  object-fit: cover
+  object-position: center
   background-color: $grey
 .content
-  padding: 50px 0
+  padding: 30px 0
   .logo img
     height: 96px
     width: auto
