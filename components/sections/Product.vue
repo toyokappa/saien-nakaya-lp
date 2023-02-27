@@ -11,7 +11,7 @@ section.section
         .product
           img.eyecatch.mb-1(src="@/assets/images/product-001.jpg")
           p 数式ネギ
-    .content.t-center
+    .content.t-center.mb-4
       h3.f-20.mb-2 旬の野菜シリーズ
       .mb-2
         p 旬の野菜を旬の時期に栽培することで
@@ -20,6 +20,14 @@ section.section
         .product
           img.eyecatch.mb-1(src="@/assets/images/product-002.jpg")
           p ズッキーニ
+    .content
+      .cell-pc.cell-2
+        a(href="/" target="_blank" rel="noopener")
+          img.banner(src="@/assets/images/base-banner.jpg")
 </template>
 
-<style lang="sass"></style>
+<style lang="sass" scoped>
+.banner
+  width: 100%
+  height: auto
+</style>
