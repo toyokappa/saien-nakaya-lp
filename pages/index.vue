@@ -3,4 +3,5 @@ SectionsFirstView
 SectionsConcept
 SectionsProduct
 SectionsCompanyInfo
+SectionsContact
 </template>

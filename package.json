@@ -12,5 +12,10 @@
     "pug": "^3.0.2",
     "sass": "^1.58.3",
     "sass-loader": "^13.2.0"
+  },
+  "dependencies": {
+    "@vee-validate/i18n": "^4.7.3",
+    "@vee-validate/rules": "^4.7.3",
+    "vee-validate": "^4.7.3"
   }
 }

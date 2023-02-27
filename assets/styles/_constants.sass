@@ -13,3 +13,9 @@ $dark: #272727
 $accent-family: 'Noto Sans JP', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif
 
 $block-padding: 13px 20px
+$cell-margin: 20px
+
+$pc: 992px
+@mixin pc
+  @media screen and (min-width: $pc)
+    @content

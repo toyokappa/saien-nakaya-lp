@@ -4,6 +4,7 @@ const projectName = "彩園なかや"
 const serviceName = "彩園なかや"
 const pageTitle = `${serviceName} | 数式と農業で食卓を支えるネギ専門農家`
 const description = " 「畑を拓き、人を育てる」を農場理念に掲げ、野菜栽培に数式を取り入れた「数式ネギ」を展開している群馬県前橋市のネギ専門農家です。"
+const mailBcc = ""
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
@@ -49,8 +50,11 @@ export default defineNuxtConfig({
   },
   runtimeConfig: {
     public: {
+      domain,
       host,
       serviceName,
+      mailgunKey: process.env.MAILGUN_KEY,
+      mailBcc: process.env.MAIL_BCC,
     }
   },
   router: {

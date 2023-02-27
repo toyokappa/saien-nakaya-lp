@@ -8,7 +8,7 @@ footer
   font-weight: bold
   text-align: center
   color: $white
-  background-color: $dark
+  background-color: $black
   width: 100%
   padding: $block-padding
 </style>

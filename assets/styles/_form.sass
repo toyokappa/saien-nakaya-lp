@@ -1,0 +1,52 @@
+.input-block
+  background-color: $white
+  padding: $block-padding
+.input-label
+  margin-bottom: 5px
+  display: flex
+  align-items: center
+  .text
+    margin-right: 3px
+  .required
+    font-size: 10px
+    color: $white
+    background-color: $red
+    padding: 1px 6px
+    border-radius: 3px
+.input-field
+  font-size: 16px
+  color: $black
+  width: 100%
+  padding: 4px 8px
+  border: 1px solid $hint
+  border-radius: 3px
+  display: block
+  &.invalid
+    border-color: $red
+.input-card-field
+  width: 100%
+  padding: 6px 8px
+  border: 1px solid $hint
+  border-radius: 3px
+  display: block
+.holizontal-field
+  display: flex
+  .input-field:first-child, .input-card-field:first-child
+    margin-right: 10px
+.hidden-field
+  display: none
+.invalid-feedback
+  color: $red
+  margin-top: 5px
+.button-submit
+  font-family: $accent-family
+  font-weight: bold
+  text-align: center
+  letter-spacing: 0.05em
+  color: white
+  background: $primary
+  width: 100%
+  border-radius: 5px
+  padding: 10px
+  &:disabled
+    background: $hint
