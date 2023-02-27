@@ -1,10 +1,10 @@
 <template lang="pug">
 a.button(v-if="outside" :style="buttonStyles" target="_blank" rel="noopener")
   slot
-  img(src="@/assets/images/vector-right.svg")
+  img(src="@/assets/images/vector-right.svg" alt=">" width="24" height="24")
 nuxt-link.button(v-else :style="buttonStyles")
   slot
-  img(src="@/assets/images/vector-right.svg")
+  img(src="@/assets/images/vector-right.svg" alt=">" width="24" height="24")
 </template>
 
 <script setup lang="ts">

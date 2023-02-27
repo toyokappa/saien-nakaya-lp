@@ -1,10 +1,10 @@
 <template lang="pug">
 section
-  img.hero(src="@/assets/images/hero.jpg")
+  img.hero(src="@/assets/images/hero.jpg" alt="トップ画像" width="100%" height="60%")
   .container
     .content.t-center
       h1.logo.mb-2
-        img.mb-1(src="@/assets/images/logo.png")
+        img.mb-1(src="@/assets/images/logo.png" alt="彩園なかや" width="120" height="96")
         .f-24 彩園なかや
       .concept.mb-3
         p 畑を拓き、人を育てる。

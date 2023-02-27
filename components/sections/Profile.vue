@@ -1,8 +1,8 @@
 <template lang="pug">
-img.eyecatch(src="@/assets/images/owner-top.jpg")
+img.eyecatch(src="@/assets/images/owner-top.jpg" alt="トップ画像" width="100%" height="33%")
 section.section
   .profile.t-center.mb-3
-    img.photo.mb-2(src="@/assets/images/nakaya.jpg")
+    img.photo.mb-2(src="@/assets/images/nakaya.jpg" alt="中屋 智博" width="160" height="160")
     .mb-1 彩園なかや代表
     h-1.f-24.mb-2 中屋 智博
   .container
