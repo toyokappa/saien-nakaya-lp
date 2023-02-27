@@ -47,6 +47,9 @@ const buttonStyles = computed(() => {
   text-decoration: none
   width: 100%
   padding: 10px 20px
+  @include pc
+    max-width: 360px
+    margin: 0 auto
   img
     height: 24px
     width: auto

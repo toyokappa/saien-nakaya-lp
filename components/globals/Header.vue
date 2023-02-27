@@ -1,7 +1,8 @@
 <template lang="pug">
 header
-  nuxt-link.logo(to="/")
-    img(src="@/assets/images/logo.png")
+  .container
+    nuxt-link.logo(to="/")
+      img(src="@/assets/images/logo.png")
 </template>
 
 <style lang="sass" scoped>
