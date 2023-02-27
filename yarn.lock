@@ -867,15 +867,15 @@
     hookable "^5.4.2"
     unhead "1.1.7"
 
-"@vee-validate/i18n@4.7.3":
-  version "4.7.3"
-  resolved "https://registry.yarnpkg.com/@vee-validate/i18n/-/i18n-4.7.3.tgz#7b3a187ed83712fc48ce0f7b61f6cf4e0f38aa9e"
-  integrity sha512-Zgddr5azPiLrLFISJBmEL9l4PJoFAzfootWii5wxoVbTt3NnwcA/DobK8fLtfOeUtvh6aNwQgAAt548fe4MpKg==
+"@vee-validate/i18n@^4.7.3":
+  version "4.7.4"
+  resolved "https://registry.yarnpkg.com/@vee-validate/i18n/-/i18n-4.7.4.tgz#3e7eeaa6e48c596daf9e39126b0d45db070b9b21"
+  integrity sha512-zK5rnPjgd4kBEfUj4jWUu6GHsldETji/JuorBb+emWSD1QUo4nEr1R7zFqHHunbAQu664iIQnzAlsfzkkXM40A==
 
-"@vee-validate/rules@4.7.3":
-  version "4.7.3"
-  resolved "https://registry.yarnpkg.com/@vee-validate/rules/-/rules-4.7.3.tgz#890ca1d3d7c30891914e20eac70c6c253dfec100"
-  integrity sha512-lC/nYA1U7XiE/ncikyzKOqsTAa1OJGza1757zahqoPD0s/66vIR3uBBDeBUNeCOrBoq9Ga20wOVEuiBIGvOZww==
+"@vee-validate/rules@^4.7.3":
+  version "4.7.4"
+  resolved "https://registry.yarnpkg.com/@vee-validate/rules/-/rules-4.7.4.tgz#fca175f11ae4ce33e46d513b12feca94164b871f"
+  integrity sha512-rWpmGKB/jy7/jbuAH/pfCYoCjiYDx77geNEaYeTl07eHo+2jL+j802Ttn85cTJsMUeXzRSUauepvNCpkVWV+aA==
 
 "@vercel/nft@^0.22.6":
   version "0.22.6"
@@ -4365,10 +4365,10 @@ util-deprecate@^1.0.1, util-deprecate@^1.0.2, util-deprecate@~1.0.1:
   resolved "https://registry.yarnpkg.com/util-deprecate/-/util-deprecate-1.0.2.tgz#450d4dc9fa70de732762fbd2d4a28981419a0ccf"
   integrity sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==
 
-vee-validate@4.7.3:
-  version "4.7.3"
-  resolved "https://registry.yarnpkg.com/vee-validate/-/vee-validate-4.7.3.tgz#0200c2f1151d28d9fb6fdb6c59c01170146094be"
-  integrity sha512-1MwHLOzCrabSeChySZVVMamWStcucM1hHxapoebY9mJ7KWOvncMG19a7AlPl38zpE9pcD+G3CHKLvviGmTl5BQ==
+vee-validate@^4.7.3:
+  version "4.7.4"
+  resolved "https://registry.yarnpkg.com/vee-validate/-/vee-validate-4.7.4.tgz#4f7c6833eb663d465191e1583bf6f552b16b1a7b"
+  integrity sha512-pfhKluYimYvSQIiFoIY29NAgl0j24DqPsodlCny/NlOrYbougdjbL1C9yYqmba4Ka3YUY6vOZ0GE2wcwMsKQ5A==
   dependencies:
     "@vue/devtools-api" "^6.1.4"
 
@@ -4487,6 +4487,11 @@ vue-router@^4.1.6:
   integrity sha512-DYWYwsG6xNPmLq/FmZn8Ip+qrhFEzA14EI12MsMgVxvHFDYvlr4NXpVF5hrRH1wVcDP8fGi5F4rxuJSl8/r+EQ==
   dependencies:
     "@vue/devtools-api" "^6.4.5"
+
+vue3-toastify@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/vue3-toastify/-/vue3-toastify-0.1.1.tgz#f6e5adba5c25a8a482c3cfe99bdf985e88eed11c"
+  integrity sha512-Riy4PnkQNRWppPytaC4J7UP3ICNER9VOVDrgfuIBlEOkz1PO24lrQ49kI4BdLJrS3KMlDyJFdawDyB4+DZFjfg==
 
 vue@^3.2.47:
   version "3.2.47"

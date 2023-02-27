@@ -16,6 +16,7 @@
   "dependencies": {
     "@vee-validate/i18n": "^4.7.3",
     "@vee-validate/rules": "^4.7.3",
-    "vee-validate": "^4.7.3"
+    "vee-validate": "^4.7.3",
+    "vue3-toastify": "^0.1.1"
   }
 }

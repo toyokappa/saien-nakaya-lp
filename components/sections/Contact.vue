@@ -29,15 +29,19 @@ section.section.bg-dark
         .invalid-feedback(v-if="emailError") {{ emailError }}
       .mb-2
         label.input-label(form="message")
-          span メッセージ
+          span.text メッセージ
+          span.required 必須
         textarea.input-field(
           rows="3"
           name="message"
           id="message"
+          :class="{ invalid: messageError }"
           v-model="message"
         )
+        .invalid-feedback(v-if="messageError") {{ messageError }}
       button.button-submit(
         :disabled="!meta.valid"
+        @click.prevent="sendMail()"
       ) 送信する
 </template>
 
@@ -45,13 +49,16 @@ section.section.bg-dark
 import { useField, useForm, configure } from "vee-validate";
 import { localize } from "@vee-validate/i18n";
 
-const { meta } = useForm();
+const { meta, resetForm } = useForm();
 const { value: name, errorMessage: nameError } = useField("name", "required");
 const { value: email, errorMessage: emailError } = useField(
   "email",
   "required|email"
 );
-const { value: message } = useField("message");
+const { value: message, errorMessage: messageError } = useField(
+  "message",
+  "required"
+);
 
 configure({
   generateMessage: localize({
@@ -67,9 +74,10 @@ configure({
 
 const { serviceName, host, domain, mailgunKey, mailBcc } =
   useRuntimeConfig().public;
+const { $toast } = useNuxtApp();
 
 const sendMail = async () => {
-  // loading
+  useLoad().start();
   const subject = `【${serviceName}】お問い合わせを受け付けました`;
   const text = `
 以下の内容でホームページよりお問い合わせを受け付けました。
@@ -115,12 +123,13 @@ ${host}
         Authorization: "Basic " + btoa(`api:${mailgunKey}`),
       },
     });
-    // トースト
+    resetForm();
+    $toast.success("お問い合わせを受け付けました");
   } catch (err) {
-    // トースト
+    $toast.error(`お問い合わせに失敗しました(code: ${err.status})`);
     throw err;
   } finally {
-    // ローディング終了
+    useLoad().finish();
   }
 };
 </script>
