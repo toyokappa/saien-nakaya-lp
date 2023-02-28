@@ -22,7 +22,7 @@ section.section
           p ズッキーニ
     .content
       .cell-pc.cell-2
-        a(href="/" target="_blank" rel="noopener")
+        a(href="https://saiennakaya.base.shop/" target="_blank" rel="noopener")
           img.banner(src="@/assets/images/base-banner.jpg" alt="BASEで販売中" width="486" height="273")
 </template>
 
