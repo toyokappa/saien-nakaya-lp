@@ -51,6 +51,7 @@ export default defineNuxtConfig({
       ],
     }
   },
+  modules: ['~/modules/sitemap'],
   runtimeConfig: {
     public: {
       domain,
