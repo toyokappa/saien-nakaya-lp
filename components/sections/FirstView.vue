@@ -7,7 +7,7 @@ section
         img.mb-1(src="@/assets/images/logo.png" alt="彩園なかや" width="120" height="96")
         .f-24 彩園なかや
       .concept.mb-3
-        p 畑を拓き、人を育てる。
+        p 愛され農業
       PartsButton(to="/owner") 代表/中屋 智博について
 </template>
 
