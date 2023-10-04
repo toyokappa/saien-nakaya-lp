@@ -9,6 +9,8 @@ section
       .concept.mb-3
         p 愛され農業
       PartsButton(to="/owner") 代表/中屋 智博について
+      a.note-btn(href="https://note.com/majigachisaien/" target="_blank" rel="noopener")
+        | 中屋が綴るnoteはコチラから
 </template>
 
 <style lang="sass" scoped>
@@ -26,4 +28,15 @@ section
     height: 96px
     width: auto
     margin: 0 auto 10px
+  .note-btn
+    margin-top: 20px
+    display: block
+    padding: 10px 20px
+    border: 1px solid $grey
+    border-radius: 5px
+    color: inherit
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2)
+    &:hover
+      background-color: $grey
+      color: $white
 </style>
