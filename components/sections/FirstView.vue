@@ -36,7 +36,10 @@ section
     border-radius: 5px
     color: inherit
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2)
+    @include pc
+      max-width: 360px
+      margin-left: auto
+      margin-right: auto
     &:hover
       background-color: $grey
-      color: $white
 </style>
